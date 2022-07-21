@@ -1,0 +1,27 @@
+#ipt{
+    width: 90%;
+    height: 200px;
+    font-size: xx-large;
+    font-weight: bold;
+    border: none;
+    margin: 50% 5% 0 0;
+    outline: none;
+    color: rgb(50, 50, 50);
+  }
+  
+  h1{
+    color : rgb(50, 50, 50)
+  }
+  
+  p{
+    color : rgb(50, 50, 50);
+  }
+  
+  #parent1{
+    --box-shadow-color: rgb(155, 155, 155);
+    background-color: rgb(228, 228, 228);
+    margin: 1% 5% 1% 1% ;
+    padding: 2.5%;
+    box-shadow: 5px 5px var(--box-shadow-color) ;
+    display: table;
+  }
